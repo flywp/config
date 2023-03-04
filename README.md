@@ -1,1 +1,1 @@
-# config
+# FlyWP Nginx and PHP config
