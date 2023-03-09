@@ -1,0 +1,43 @@
+# Nginx Config
+
+- Enable SSL
+    - [] Redirect http to https
+- [] Proxy Settings
+    - () None
+    - () Cloudflare
+    - () Sucuri
+- [] Enable brotli compression
+- [] Enable 7G firewall
+- [] Redirect www to non www
+- [] Page Caching
+    - () None 
+    - () Nginx fastcgi cache
+    - () WP Rocket
+    - () WP Super Cache
+    - () WP Fastest Cache
+    - () Cache Enabler
+- [] WordPress Security
+    - [] Disable XMLRPC
+    - [] Disable PHP execution on wp-content folder
+    - [] Disable PHP execution on wp-includes folder
+    - [] Disable PHP execution on uploads folder
+    - [] Disable PHP execution on themes folder
+    - [] Disable PHP execution on plugins folder
+    - [] Disable comments
+    - [] Disable trackbacks
+    - [] Disable Links OPML
+    - [] Disable REST API
+    - [] Disable wp-login (to prevent bruteforce attack)
+    - [] Disable wp-admin (to prevent bruteforce attack)
+    - [] Add throttling to wp-login
+    - [] Disable RSS and ATOM Feeds
+- [] Prevent image hotlinking
+
+# WP Config
+
+- [] Disable plugin and theme editor
+- [] Disable WordPress Core Updates
+- [] Disable Plugin updates
+- [] Enable WP_DEBUG
+- [] Enable WP_DEBUG_LOG
+- [] Enable WP_DEBUG_DISPLAY
