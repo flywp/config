@@ -1,3 +1,4 @@
 nginx/default.conf
 nginx/custom/*
+php/custom/*
 custom/*
