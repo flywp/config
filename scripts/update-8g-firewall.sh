@@ -5,7 +5,7 @@ set -euo pipefail
 # Template script to download and update one or more files.
 # Automated mode: uses built-in variables at the top of the file (no CLI args)
 
-# Needs to be run from site_dir/config folder, not from the scripts/ folder
+# Needs to be run from site_dir/config directory, not from the scripts/ folder
 
 PROG_NAME="$(basename "$0")"
 
