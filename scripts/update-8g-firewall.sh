@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-"set -euo pipefail"
+set -euo pipefail
 
 # update-8g-firewall.sh
 # Template script to download and update one or more files.
