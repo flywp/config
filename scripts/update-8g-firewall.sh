@@ -18,7 +18,7 @@ PROG_NAME="$(basename "$0")"
 # FILES: array of filenames (or relative paths) to download and update
 
 DEST_PREFIX="./nginx/common"
-BASE_URL="https://raw.githubusercontent.com/t18d/nG-SetEnvIf/refs/heads/develop"
+BASE_URL="https://raw.githubusercontent.com/t18d/nG-SetEnvIf/develop"
 BACKUP_DIR="./backups"
 DRY_RUN=false
 
