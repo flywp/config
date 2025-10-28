@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -euo pipefail+
+
+# Cleanup temp files on exit
+trap 'rm -f /tmp/8g-firewall-config-*' EXIT
 
 # Download and update configuration files
 # Run from: {SITE_DIR}/config directory
