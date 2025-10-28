@@ -3,3 +3,4 @@ nginx/custom/*
 php/custom/*
 ols/*
 custom/*
+config_backup/*
