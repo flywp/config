@@ -19,7 +19,7 @@ PROG_NAME="$(basename "$0")"
 
 DEST_PREFIX="./nginx/common"
 BASE_URL="https://raw.githubusercontent.com/t18d/nG-SetEnvIf/develop"
-BACKUP_DIR="./backups"
+BACKUP_DIR="./config_backup"
 DRY_RUN=false
 
 # Example: FILES=(8g.conf cloudflare.conf)
