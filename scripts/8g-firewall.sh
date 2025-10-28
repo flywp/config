@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail+
+set -euo pipefail
 
 # Cleanup temp files on exit
 trap 'rm -f /tmp/8g-firewall-config-*' EXIT
