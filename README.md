@@ -12,6 +12,6 @@ To update CloudFlare IP's, run the command:
 
 To update 8g Firewall rules, run the command:
 
-```bashbash
+```bash
 ./scripts/8g-firewall.sh
 ```
